@@ -1,0 +1,85 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<link type= "text/css" rel="stylesheet" href="cssforvizitka.css">
+<title>Test1</title>
+<meta charset="utf-8">
+<script>
+			// скрипт "Скрыть-Показать"
+			function look(type){
+			param=document.getElementById(type);
+			if(param.style.display == "none") param.style.display = "block";
+			else param.style.display = "none"
+}
+</script> 
+</head>
+
+<body>
+								<!-- тут про шапку-->	
+<div id="head">
+<div class="logo"><img class="logo" src="darklogo.png" alt="logo"></div>
+</div>
+
+
+								<!-- меню-->
+<div id="menu">
+
+<a  href="sitevizitkaeng.html"><div class="menubutn" id="butn1">about us</div></a>
+<a id="thispage" href="sitevizitkanewseng.html"><div class="menubutn">news</div></a>
+<a href="sitevizitkakontactideng.html"><div class="menubutn">contacts</div></a>
+
+								<!--последняя кнопка меню и js-->
+								
+<div class="menubutn" id="menubutnjavascr" >
+
+<a class="entext" href="javascript:look('div1');" title="сменаязыка"><div>language</div></a>
+<div id="div1" style="display: none;">
+ <a class="entext" href="sitevizitkanewsopen.html"><div class="jsdiv" >Русский</div></a>
+ <a class="entext" href="sitevizitkanewsopenest.html"><div class="jsdiv">Eesti</div></a> 
+<a class="entext" href="sitevizitkanewsopeneng.html"><div class="jsdiv">English</div> </a> 
+ </div>
+
+</div>
+<a href="sitevizitkanewsopenlighteng.html"><div class="menubutn" id="menubutntheme" >☼</div></a>
+</div>
+								<!-- контент-->								
+<div id="contB23">
+<div class="helpblock"></div>
+<div id="h1block">
+<h1 id="zagolovok">Opening of the Vestervalli exhibition</h1>
+</div>
+
+<div class="newspost" id="blocknews1">
+<p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+ <br>eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+ <br>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+ </p>
+</div>
+<div class="newspost" id="blocknews2">
+
+<img id="imgpost" src="mapsnews.png" alt="mapsnews">
+
+</div>
+<div class="newspost" id="blocknews3"></div>
+
+
+</div>
+								<!--подвал-->
+<div id="footrrr"> 
+
+<div class="ftrstolb1" id="stolbik1">
+<a class="textfootr" id="afotr" href="#">facebook</a>
+</div>
+<div class="ftrstolb1" id="stolbik2">
+<p  class="textfootr" >+372 5564 9021<p>
+</div>
+<div class="ftrstolb1" id="stolbik3">
+<p  class="textfootr" >otyrina@narod.ru<p>
+</div>
+
+</div>
+
+</body>
+</html>

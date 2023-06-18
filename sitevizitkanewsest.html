@@ -1,0 +1,88 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<link type= "text/css" rel="stylesheet" href="cssforvizitka.css">
+<title>Test1</title>
+<meta charset="utf-8">
+<script>
+			// скрипт "Скрыть-Показать"
+			function look(type){
+			param=document.getElementById(type);
+			if(param.style.display == "none") param.style.display = "block";
+			else param.style.display = "none"
+}
+</script> 
+</head>
+
+<body>
+								<!-- тут про шапку-->
+<div id="head">
+<div class="logo">
+<img class="logo" src="darklogo.png" alt="logo">
+</div>
+</div>
+								<!-- меню-->
+<div id="menu">
+
+<a  href="sitevizitkaest.html"><div class="menubutn" id="butn1">meist</div></a>
+<a id="thispage" href="sitevizitkanewsest.html"><div class="menubutn">uudiseid</div></a>
+<a href="sitevizitkakontactidest.html"><div class="menubutn">kontaktid</div></a>
+
+								<!--последняя кнопка меню и js-->
+								
+<div class="menubutn" id="menubutnjavascr" >
+
+<a class="entext" href="javascript:look('div1');" title="сменаязыка"><div >keel</div></a>
+<div id="div1" style="display: none;">
+ <a class="entext" href="sitevizitkanews.html"><div class="jsdiv" >Русский</div></a>
+ <a class="entext" href="sitevizitkanewsest.html"><div class="jsdiv">Eesti</div></a> 
+<a class="entext" href="sitevizitkanewseng.html"><div class="jsdiv">English</div> </a> 
+ </div>
+
+</div>
+<a href="sitevizitkanewslightest.html"><div class="menubutn" id="menubutntheme" >☼</div></a>
+</div>
+								<!-- контент-->				
+<div id="contB">
+
+<div class="helpblock"></div>
+
+<div class="newsblock" id="textblocknews">
+<h1 class="hnews" >Lorem ipsum</h1>
+<p class="pnews" >
+ Lorem ipsum dolor sit amet, sed do eiusmod ipsum dolor ipsum dolor ipsum dolor tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit,. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<a href="sitevizitkanewsopenest.html">Loe rohkem...</a>
+</p>
+</div>
+
+<div class="newsblock" id="piltnews"></div>
+<div class="newsblock" id="piltnews2"></div>
+
+<div class="newsblock" id="textblocknews2">
+<h1 class="hnews" >Lorem ipsum</h1>
+<p class="pnews" >
+ Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ipsum dolor ipsum dolor ipsum dolor ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit,. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<a href="#">Loe rohkem...</a>
+</p>
+</div>
+
+</div>
+<div class="helpblock"></div>
+
+								<!--подвал-->
+<div id="footrrr"> 
+
+<div class="ftrstolb1" id="stolbik1">
+<a class="textfootr" id="afotr" href="#">facebook</a>
+</div>
+<div class="ftrstolb1" id="stolbik2">
+<p  class="textfootr" >+372 5564 9021<p>
+</div>
+<div class="ftrstolb1" id="stolbik3">
+<p  class="textfootr" >otyrina@narod.ru<p>
+</div>
+
+</div>
+
+</body>
+</html>

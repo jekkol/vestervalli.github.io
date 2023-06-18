@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="ru">
+<head>
+<link type= "text/css" rel="stylesheet" href="cssforvizitka.css">
+<title>Test1</title>
+<meta charset="utf-8">
+<script>
+			// скрипт "Скрыть-Показать"
+			function look(type){
+			param=document.getElementById(type);
+			if(param.style.display == "none") param.style.display = "block";
+			else param.style.display = "none"
+}
+</script> 
+</head>
+
+<body>
+								<!-- тут про шапку-->	
+<div id="head">
+<div class="logo"><img class="logo" src="darklogo.png" alt="logo"></div>
+</div>
+
+
+								<!-- меню-->
+<div id="menu">
+
+<a id="thispage" href="sitevizitka.html"><div class="menubutn" id="butn1">о нас</div></a>
+<a href="sitevizitkanews.html"><div class="menubutn">новости</div></a>
+<a href="sitevizitkakontactid.html"><div class="menubutn">контакты</div></a>
+
+								<!--последняя кнопка меню и js-->
+								
+<div class="menubutn" id="menubutnjavascr" >
+
+<a class="entext" href="javascript:look('div1');" title="сменаязыка"><div >язык</div></a>
+<div id="div1" style="display: none;">
+ <a class="entext" href="sitevizitka.html"><div class="jsdiv" >Русский</div></a>
+ <a class="entext" href="sitevizitkaest.html"><div class="jsdiv">Eesti</div></a> 
+<a class="entext" href="sitevizitkaeng.html"><div class="jsdiv">English</div> </a> 
+ </div>
+
+</div>
+<a href="sitevizitkalight.html"><div class="menubutn" id="menubutntheme" >☼</div></a>
+</div>
+								<!-- контент-->								
+<div id="contB55">
+<div class="helpblock"></div>
+<div id="h1block">
+<h1 id="zagolovok"> О нас </h1>
+</div>
+
+<div id="txtcontent" >
+<p>Объединение нарвских художников «Вестервалли» было организованно в 1999 году искусствоведом Карин Тайдре. «Вестервалли» объединяет 37 художников, работающих в разных техниках и направлениях. В объединение входят живописцы, графики, художники прикладного искусства, дизайнеры и фотографы Нарвы.
+Основной целью объединения является создание совместных выставок, мероприятий, а также повышение художественной квалификации участников.<br><br>
+Многие из художников занимаются или занимались ранее преподавательской деятельностью в Нарвской художественной школе, студиях, а также в Нарвском колледже Тартуского университета и гимназиях Нарвы и Таллинна.<br><br>
+Своим творчеством «Вестервалли» старается пропагандировать нарвское искусство как в Эстонии, так и за рубежом. (Таллинн, Пярну, Пайде, Тарту, Пуртсе, Тюри, Вильянди, Йыхви, Кохтла-Ярве и т.д.), России (Петербург, Ярославль, Кострома, Петрозаводск), Литве (Клайпеде), США (Бел-Эйр,штат Мэриленд).<br><br>
+Каждый год «Вестервалли» участвует в Дне художника, который проходит в начале июня, где жители и гости города могут увидеть выставки, акции, поучаствовать в мастер-классах, общаться с художниками и т.д.<br><br>
+Группа непрерывно пополняется молодыми и новыми художниками, которые активно включаются в деятельность объединения.<br><br>
+С 2017 года председатель правления объединения – Ольга Тюрина.<p>
+</div>
+
+</div>
+<div class="helpblock"></div>
+								<!--подвал-->
+<div id="footrrr"> 
+
+<div class="ftrstolb1" id="stolbik1">
+<a class="textfootr" id="afotr" href="#">facebook</a>
+</div>
+<div class="ftrstolb1" id="stolbik2">
+<p  class="textfootr" >+372 5564 9021<p>
+</div>
+<div class="ftrstolb1" id="stolbik3">
+<p  class="textfootr" >otyrina@narod.ru<p>
+</div>
+
+</div>
+
+</body>
+</html>

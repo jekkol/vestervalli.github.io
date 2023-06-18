@@ -1,0 +1,84 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<link type= "text/css" rel="stylesheet" href="cssforvizitka.css">
+<title>Test1</title>
+<meta charset="utf-8">
+<script>
+			// скрипт "Скрыть-Показать"
+			function look(type){
+			param=document.getElementById(type);
+			if(param.style.display == "none") param.style.display = "block";
+			else param.style.display = "none"
+}
+</script> 
+</head>
+
+<body>
+								<!-- тут про шапку-->
+<div id="head">
+<div class="logo">
+<img class="logo" src="darklogo.png" alt="logo">
+</div>
+</div>
+								<!-- меню-->
+<div id="menu">
+
+<a href="sitevizitkaeng.html"><div class="menubutn" id="butn1">about us</div></a>
+<a href="sitevizitkanewseng.html"><div class="menubutn">news</div></a>
+<a id="thispage" href="sitevizitkakontactideng.html"><div class="menubutn">contacts</div></a>
+
+								<!--последняя кнопка меню и js-->
+								
+<div class="menubutn" id="menubutnjavascr" >
+
+<a class="entext" href="javascript:look('div1');" title="сменаязыка"><div >language</div></a>
+<div id="div1" style="display: none;">
+ <a class="entext" href="sitevizitkakontactid.html"><div class="jsdiv" >Русский</div></a>
+ <a class="entext" href="sitevizitkakontactidest.html"><div class="jsdiv">Eesti</div></a> 
+<a class="entext" href="sitevizitkakontactideng.html"><div class="jsdiv">English</div> </a> 
+ </div>
+ 
+</div>
+<a href="sitevizitkakontactidlighteng.html"><div class="menubutn" id="menubutntheme" >☼</div></a>
+</div>
+								<!-- контент-->				
+<div id="contB44">
+<div class="helpblock"></div>
+
+<div class="stolbcontact">
+<div class="kontactblock"><p class="textcontact">Phone: +372 5564 9021 </p>  </div>
+<div class="kontactblock" id="rjad2" ><p class="textcontact">Mail: otyrina@narod.ru  </div>
+</div>
+
+<div class="stolbcontact">
+<a class="textcontact" href="https://www.google.ru/maps/place/Narva+kunstigalerii/@59.3824227,28.1940397,17z/data=!3m1!4b1!4m6!3m5!1s0x469437dec4970c65:0xea7b0f7c74ca209f!8m2!3d59.38242!4d28.19662!16s%2Fg%2F125_jbc7b?entry=ttu"><div class="kontactblock">Narva kunstigalerii</div></a>  
+<div class="codepictgm"><img src="googlemapscode.png" alt="kunsti galerii code"></div>
+</div>
+
+<div class="stolbcontact" id="rightstolb" >
+<a class="textcontact" href="https://www.facebook.com/people/Kunsti%C3%BChing-Vestervalli/100064881874705/"><div class="kontactblock">Facebook</div></a>  
+<div class="codepictgm"><img src="fbcode.png" alt="fb code"></div>
+</div>
+
+</div>
+<div class="helpblock"></div>
+
+								<!--подвал-->
+<div id="footrrr"> 
+
+<div class="ftrstolb1" id="stolbik1">
+<a class="textfootr" id="afotr" href="#">facebook</a>
+</div>
+<div class="ftrstolb1" id="stolbik2">
+<p  class="textfootr" >+372 5564 9021<p>
+</div>
+<div class="ftrstolb1" id="stolbik3">
+<p  class="textfootr" >otyrina@narod.ru<p>
+</div>
+
+</div>
+
+
+</body>
+</html>
